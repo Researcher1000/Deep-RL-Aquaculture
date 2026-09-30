@@ -1,8 +1,8 @@
 # Purpose of this repository
 
-This repository contains the **experimental implementation used in the article** on Deep Reinforcement Learning for Production Scheduling in Sea Cage Aquaculture.
+This repository contains the **experimental implementation used in the article** on deep reinforcement learning (deep RL) for Production Scheduling in Sea Cage Aquaculture.
 
-The code reproduces the DeepRL framework proposed in the study for optimizing production lot durations in aquaculture systems, considering biological growth, sea surface temperature dynamics, feed consumption, mortality, and economic returns.
+The code reproduces the deep RL framework proposed in the study for optimizing production lot durations in aquaculture systems, considering biological growth, sea water temperature dynamics, feed consumption, mortality, and economic returns.
 
 Two sale-price settings are included:
 
@@ -13,7 +13,7 @@ The repository allows the reviewer to:
 
 - run the **DeepRL training procedure**,
 - evaluate trained policies for each production region,
-- compare DeepRL policies against the heuristic benchmark,
+- compare deep RL policies against the heuristic benchmark,
 - reproduce the fixed-price and variable-price experimental settings,
 - inspect the datasets and trained models used in the study.
 
@@ -50,7 +50,7 @@ It follows the same general structure as the fixed-price version, but modifies t
 The repository includes the datasets required to reproduce the experiments:
 
 - **`SST_3loc_weekly.csv`**  
-  Weekly sea surface temperature data for the three production regions.
+  Weekly sea water temperature data for the three production regions.
 
 - **`feed_prices.csv`**  
   Feed price data used to compute feeding costs.
